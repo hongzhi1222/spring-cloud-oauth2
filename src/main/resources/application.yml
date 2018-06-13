@@ -1,0 +1,8 @@
+#sever中的这个配置是配置用来外部匹配的client信息，否则，外部无法调用
+security:
+  oauth2:
+    client:
+      client-id: acme
+      client-secret: acmesecret
+      scope: read,write
+      auto-approve-scopes: '.*'
