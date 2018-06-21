@@ -9,4 +9,7 @@ security:
       authenticationScheme: query
       clientAuthenticationScheme: form
     resource:
-      userInfoUri: https://api.github.com/user
+      user-info-uri: https://api.github.com/user
+logging:
+  level:
+    org.springframework.security: DEBUG
